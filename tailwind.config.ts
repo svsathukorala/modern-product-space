@@ -23,9 +23,29 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         space: {
-          dark: "#0A0A0B",
-          light: "#1A1F2C",
-          accent: "#D6BCFA",
+          dark: "#0A0A0B", // Darker background
+          light: "#1A1F2C", // Dark purple-blue
+          accent: "#D6BCFA", // Bright purple accent
+        },
+        primary: {
+          DEFAULT: "#D6BCFA",
+          foreground: "#0A0A0B",
+        },
+        secondary: {
+          DEFAULT: "#805AD5",
+          foreground: "#ffffff",
+        },
+        destructive: {
+          DEFAULT: "#FF1A1A",
+          foreground: "#ffffff",
+        },
+        muted: {
+          DEFAULT: "#1A1F2C",
+          foreground: "#A0AEC0",
+        },
+        accent: {
+          DEFAULT: "#805AD5",
+          foreground: "#ffffff",
         },
       },
       animation: {

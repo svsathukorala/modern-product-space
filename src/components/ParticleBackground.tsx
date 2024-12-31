@@ -13,7 +13,8 @@ const ParticleBackground = () => {
             left: Math.random() * 100 + '%',
             top: Math.random() * 100 + '%',
             animation: `particle ${Math.random() * 20 + 10}s linear infinite`,
-            filter: 'blur(1px)',
+            filter: 'blur(2px)',
+            boxShadow: '0 0 8px rgba(168,85,247,0.4)',
           }}
         />
       ))}
