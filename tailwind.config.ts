@@ -24,15 +24,15 @@ export default {
         foreground: "hsl(var(--foreground))",
         space: {
           dark: "#0A0A0B", // Darker background
-          light: "#1A1F2C", // Dark purple-blue
-          accent: "#D6BCFA", // Bright purple accent
+          light: "#1A1F2C", // Dark blue-gray
+          accent: "#00ff41", // Cyberpunk green
         },
         primary: {
-          DEFAULT: "#D6BCFA",
+          DEFAULT: "#00ff41",
           foreground: "#0A0A0B",
         },
         secondary: {
-          DEFAULT: "#805AD5",
+          DEFAULT: "#1E3A8A",
           foreground: "#ffffff",
         },
         destructive: {
@@ -41,10 +41,10 @@ export default {
         },
         muted: {
           DEFAULT: "#1A1F2C",
-          foreground: "#A0AEC0",
+          foreground: "#94A3B8",
         },
         accent: {
-          DEFAULT: "#805AD5",
+          DEFAULT: "#00ff41",
           foreground: "#ffffff",
         },
       },
