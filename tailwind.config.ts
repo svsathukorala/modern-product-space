@@ -25,10 +25,10 @@ export default {
         space: {
           dark: "#0A0A0B", // Darker background
           light: "#1A1F2C", // Dark blue-gray
-          accent: "#00ff41", // Cyberpunk green
+          accent: "#1EAEDB", // Bright blue accent
         },
         primary: {
-          DEFAULT: "#00ff41",
+          DEFAULT: "#1EAEDB",
           foreground: "#0A0A0B",
         },
         secondary: {
@@ -44,7 +44,7 @@ export default {
           foreground: "#94A3B8",
         },
         accent: {
-          DEFAULT: "#00ff41",
+          DEFAULT: "#1EAEDB",
           foreground: "#ffffff",
         },
       },
