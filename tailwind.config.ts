@@ -49,6 +49,12 @@ export default {
           DEFAULT: "#2997ff",
           foreground: "#ffffff",
         },
+        dark: {
+          background: "#0A0A0B",
+          foreground: "#ffffff",
+          muted: "#1A1F2C",
+          accent: "#2997ff",
+        },
       },
       fontFamily: {
         sans: [
@@ -61,8 +67,10 @@ export default {
       },
       animation: {
         "float": "float 6s ease-in-out infinite",
-        "fade-in": "fade-in 0.5s ease-in",
+        "fade-in": "fade-in 0.5s ease-out",
         "slide-up": "slide-up 0.5s ease-out",
+        "glow": "glow 2s ease-in-out infinite alternate",
+        "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
       keyframes: {
         float: {
@@ -76,6 +84,10 @@ export default {
         "slide-up": {
           "0%": { transform: "translateY(20px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        "glow": {
+          "0%": { boxShadow: "0 0 20px rgba(41, 151, 255, 0.5)" },
+          "100%": { boxShadow: "0 0 40px rgba(41, 151, 255, 0.8)" },
         },
       },
     },
