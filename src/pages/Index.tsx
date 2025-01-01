@@ -42,7 +42,7 @@ const Index = () => {
       </section>
 
       {/* Innovation Section */}
-      <section className="py-20 px-4 bg-apple-gray/50 dark:bg-dark-muted">
+      <section className="relative py-20 px-4 bg-apple-gray/50 dark:bg-dark-muted">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center tracking-tight text-apple-dark dark:text-white">
             Built for Innovation
@@ -73,26 +73,26 @@ const Index = () => {
       </section>
 
       {/* Part by Part Introductions */}
-      <section className="py-20 px-4 bg-apple-white dark:bg-dark-background">
+      <section className="relative py-20 px-4 bg-apple-white dark:bg-dark-background">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center tracking-tight text-apple-dark dark:text-white">
             Discover Our Platform
           </h2>
           <div className="space-y-8">
-            <div className="p-6 rounded-2xl bg-apple-gray/50 dark:bg-dark-muted backdrop-blur-sm hover:bg-apple-gray dark:hover:bg-dark-muted/80 transition-all duration-300">
-              <h3 className="text-xl font-semibold mb-4 text-apple-blue dark:text-apple-blue">Development Tools</h3>
+            <div className="p-6 rounded-2xl bg-apple-gray/50 dark:bg-dark-muted backdrop-blur-sm">
+              <h3 className="text-xl font-semibold mb-4 text-apple-blue">Development Tools</h3>
               <p className="text-apple-dark dark:text-gray-200">
                 Comprehensive suite of development tools designed to enhance your workflow and boost productivity.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-apple-gray/50 dark:bg-dark-muted backdrop-blur-sm hover:bg-apple-gray dark:hover:bg-dark-muted/80 transition-all duration-300">
-              <h3 className="text-xl font-semibold mb-4 text-apple-blue dark:text-apple-blue">API Integration</h3>
+            <div className="p-6 rounded-2xl bg-apple-gray/50 dark:bg-dark-muted backdrop-blur-sm">
+              <h3 className="text-xl font-semibold mb-4 text-apple-blue">API Integration</h3>
               <p className="text-apple-dark dark:text-gray-200">
                 Seamless API integration capabilities with extensive documentation and support resources.
               </p>
             </div>
-            <div className="p-6 rounded-2xl bg-apple-gray/50 dark:bg-dark-muted backdrop-blur-sm hover:bg-apple-gray dark:hover:bg-dark-muted/80 transition-all duration-300">
-              <h3 className="text-xl font-semibold mb-4 text-apple-blue dark:text-apple-blue">Security Features</h3>
+            <div className="p-6 rounded-2xl bg-apple-gray/50 dark:bg-dark-muted backdrop-blur-sm">
+              <h3 className="text-xl font-semibold mb-4 text-apple-blue">Security Features</h3>
               <p className="text-apple-dark dark:text-gray-200">
                 Enterprise-grade security features to protect your applications and data.
               </p>
@@ -102,29 +102,29 @@ const Index = () => {
       </section>
 
       {/* Tech Specs Section */}
-      <section className="py-20 px-4 bg-apple-gray/50 dark:bg-dark-muted">
+      <section className="relative py-20 px-4 bg-apple-gray/50 dark:bg-dark-muted">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center tracking-tight text-apple-dark dark:text-white">
             Technical Excellence
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-4">
-              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background hover:bg-apple-gray/50 dark:hover:bg-dark-muted/80 transition-all duration-300">
-                <h3 className="font-semibold mb-2 text-apple-blue dark:text-apple-blue">Performance</h3>
+              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background">
+                <h3 className="font-semibold mb-2 text-apple-blue">Performance</h3>
                 <p className="text-apple-dark dark:text-gray-200">• 99.9% Uptime<br/>• Global CDN<br/>• Sub-100ms Latency</p>
               </div>
-              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background hover:bg-apple-gray/50 dark:hover:bg-dark-muted/80 transition-all duration-300">
-                <h3 className="font-semibold mb-2 text-apple-blue dark:text-apple-blue">Security</h3>
+              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background">
+                <h3 className="font-semibold mb-2 text-apple-blue">Security</h3>
                 <p className="text-apple-dark dark:text-gray-200">• End-to-end Encryption<br/>• SOC2 Compliant<br/>• Regular Security Audits</p>
               </div>
             </div>
             <div className="space-y-4">
-              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background hover:bg-apple-gray/50 dark:hover:bg-dark-muted/80 transition-all duration-300">
-                <h3 className="font-semibold mb-2 text-apple-blue dark:text-apple-blue">Scalability</h3>
+              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background">
+                <h3 className="font-semibold mb-2 text-apple-blue">Scalability</h3>
                 <p className="text-apple-dark dark:text-gray-200">• Auto-scaling<br/>• Load Balancing<br/>• Distributed Systems</p>
               </div>
-              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background hover:bg-apple-gray/50 dark:hover:bg-dark-muted/80 transition-all duration-300">
-                <h3 className="font-semibold mb-2 text-apple-blue dark:text-apple-blue">Developer Tools</h3>
+              <div className="p-6 rounded-2xl bg-white dark:bg-dark-background">
+                <h3 className="font-semibold mb-2 text-apple-blue">Developer Tools</h3>
                 <p className="text-apple-dark dark:text-gray-200">• Comprehensive SDK<br/>• CLI Tools<br/>• Extensive Documentation</p>
               </div>
             </div>
